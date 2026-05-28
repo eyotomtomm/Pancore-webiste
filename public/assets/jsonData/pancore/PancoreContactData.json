@@ -1,0 +1,32 @@
+{
+    "badge": "Contact Us",
+    "title": "Get In Touch",
+    "description": "We would love to hear from you. Whether you are a farmer, a partner, a customer, or simply interested in what we do — reach out and let's start a conversation.",
+    "emails": [
+        {
+            "id": 1,
+            "label": "General Enquiries",
+            "email": "info@pancoreltd.com",
+            "icon": "fas fa-envelope"
+        },
+        {
+            "id": 2,
+            "label": "Careers",
+            "email": "jobs@pancoreltd.com",
+            "icon": "fas fa-briefcase"
+        },
+        {
+            "id": 3,
+            "label": "Partnerships",
+            "email": "partners@pancoreltd.com",
+            "icon": "fas fa-handshake"
+        }
+    ],
+    "website": "www.pancoreltd.com",
+    "formFields": [
+        { "id": 1, "name": "name", "label": "Full Name", "type": "text", "required": true },
+        { "id": 2, "name": "email", "label": "Email Address", "type": "email", "required": true },
+        { "id": 3, "name": "subject", "label": "Subject", "type": "text", "required": true },
+        { "id": 4, "name": "message", "label": "Your Message", "type": "textarea", "required": true }
+    ]
+}

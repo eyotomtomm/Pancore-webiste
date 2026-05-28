@@ -1,0 +1,39 @@
+{
+    "badge": "Our Purpose",
+    "title": "We nourish people and build stronger communities.",
+    "description": "Through sustainable practices, innovation and partnerships, we are committed to creating lasting impact across Africa and beyond.",
+    "linkText": "Learn more about us",
+    "linkUrl": "/pancore-about",
+    "values": [
+        {
+            "id": 1,
+            "icon": "13.png",
+            "title": "Sustainability",
+            "description": "We are committed to responsible sourcing, resource efficiency and caring for the planet."
+        },
+        {
+            "id": 2,
+            "icon": "15.png",
+            "title": "Integrity",
+            "description": "We do business the right way, every day, everywhere."
+        },
+        {
+            "id": 3,
+            "icon": "17.png",
+            "title": "Collaboration",
+            "description": "We achieve more by working together with our partners and communities."
+        },
+        {
+            "id": 4,
+            "icon": "19.png",
+            "title": "Excellence",
+            "description": "We innovate and continuously improve to deliver lasting value."
+        },
+        {
+            "id": 5,
+            "icon": "21.png",
+            "title": "Innovation",
+            "description": "We embrace new ideas and technologies to solve complex challenges across the value chain."
+        }
+    ]
+}

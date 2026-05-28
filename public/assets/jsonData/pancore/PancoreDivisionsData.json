@@ -1,0 +1,50 @@
+{
+    "title": "A Fully Integrated Model from Farm to Market",
+    "description": "We combine deep local expertise with global standards, leveraging innovation, sustainability, and scale to unlock Africa's agricultural potential. From farm to market, we work to build resilient value chains that empower farmers, serve consumers, and create long-term value for stakeholders.",
+    "linkText": "Explore our businesses",
+    "linkUrl": "/our-business",
+    "divisions": [
+        {
+            "id": 1,
+            "icon": "1.png",
+            "title": "Sourcing & Origination",
+            "description": "Direct engagement with farmers and cooperatives to source quality produce.",
+            "link": "/our-business"
+        },
+        {
+            "id": 2,
+            "icon": "3.png",
+            "title": "Processing & Manufacturing",
+            "description": "Facilities and partnerships that produce high-quality, value-added products.",
+            "link": "/our-business"
+        },
+        {
+            "id": 3,
+            "icon": "5.png",
+            "title": "Trading & Distribution",
+            "description": "Logistics and market access across local and international markets.",
+            "link": "/our-business"
+        },
+        {
+            "id": 4,
+            "icon": "7.png",
+            "title": "Branding & Retail",
+            "description": "Consumer-facing products built on quality, traceability, and trust.",
+            "link": "/our-business"
+        },
+        {
+            "id": 5,
+            "icon": "9.png",
+            "title": "Grains & Staples",
+            "description": "Maize, wheat, rice, maize flour and essential food commodities across Africa.",
+            "link": "/our-commodities"
+        },
+        {
+            "id": 6,
+            "icon": "11.png",
+            "title": "Edible Oils & Feed",
+            "description": "Soybeans, oil seeds, soybean meal and animal feed ingredients.",
+            "link": "/our-commodities"
+        }
+    ]
+}

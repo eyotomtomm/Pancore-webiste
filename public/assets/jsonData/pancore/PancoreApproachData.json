@@ -1,0 +1,35 @@
+{
+    "badge": "Our Approach",
+    "title": "How We Work",
+    "description": "Our approach is built on four strategic pillars that guide how we create value across the agricultural value chain.",
+    "pillars": [
+        {
+            "id": 1,
+            "number": "01",
+            "title": "Farmer-Centric",
+            "description": "We put farmers at the centre of everything we do. By building direct relationships with smallholder farmers and cooperatives, we ensure fair pricing, reliable off-take, and access to inputs, training, and finance that improve yields and livelihoods.",
+            "image": "/assets/img/pancore/farmer-centric.jpg"
+        },
+        {
+            "id": 2,
+            "number": "02",
+            "title": "Digital-First",
+            "description": "We leverage technology to transform traditional agricultural practices. From digital procurement platforms and real-time market data to precision agriculture tools and supply chain tracking, technology is at the core of our operations.",
+            "image": "/assets/img/pancore/digital-first.jpg"
+        },
+        {
+            "id": 3,
+            "number": "03",
+            "title": "Climate-Smart",
+            "description": "We promote and practise climate-smart agriculture — reducing environmental impact while improving productivity. Our approach includes sustainable sourcing, water-efficient processing, and investments in renewable energy across our operations.",
+            "image": "/assets/img/pancore/climate-smart.jpg"
+        },
+        {
+            "id": 4,
+            "number": "04",
+            "title": "Vertical Integration",
+            "description": "By controlling key stages of the value chain — from sourcing and processing to trading and branding — we ensure quality, reduce costs, and create more value for all stakeholders, from farmers to consumers.",
+            "image": "/assets/img/pancore/vertical-integration.jpg"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "badge": "About Pancore",
+    "title": "Who We Are",
+    "description": "Pancore is a pan-African agribusiness company transforming how food is grown, processed, and distributed across the continent and beyond. We operate at the intersection of agriculture, nutrition, and commerce — building integrated value chains that connect smallholder farmers to consumers, and African markets to the world.",
+    "image": "/assets/img/pancore/overview.jpg",
+    "vision": {
+        "title": "Our Vision",
+        "text": "To be Africa's most trusted and innovative agribusiness group — nourishing people, empowering communities, and building a resilient food system for the continent."
+    },
+    "mission": {
+        "title": "Our Mission",
+        "text": "To source, process, trade, and brand high-quality agricultural products that feed Africa and the world — sustainably, profitably, and with lasting impact on the communities we serve."
+    },
+    "values": [
+        {
+            "id": 1,
+            "icon": "15.png",
+            "title": "Integrity",
+            "description": "We do business the right way, every day, everywhere. Transparency, honesty, and accountability guide everything we do."
+        },
+        {
+            "id": 2,
+            "icon": "19.png",
+            "title": "Excellence",
+            "description": "We set high standards in everything — from the quality of our products to the way we engage with stakeholders."
+        },
+        {
+            "id": 3,
+            "icon": "13.png",
+            "title": "Sustainability",
+            "description": "We are committed to responsible sourcing, resource efficiency, and caring for the planet and the people on it."
+        },
+        {
+            "id": 4,
+            "icon": "17.png",
+            "title": "Partnership",
+            "description": "We achieve more by working together — with farmers, communities, governments, and private sector partners."
+        },
+        {
+            "id": 5,
+            "icon": "21.png",
+            "title": "Innovation",
+            "description": "We embrace new ideas, technologies, and approaches to solve complex challenges across the agricultural value chain."
+        }
+    ]
+}

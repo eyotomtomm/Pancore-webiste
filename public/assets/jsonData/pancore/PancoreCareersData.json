@@ -1,0 +1,38 @@
+{
+    "badge": "Careers",
+    "title": "Join Pancore",
+    "description": "We are building a team of ambitious, purpose-driven professionals who want to make a real difference in African agriculture. Whether you are an experienced agribusiness leader or a young professional starting your career, Pancore offers an environment where you can grow, innovate, and contribute to something bigger.",
+    "offerings": [
+        {
+            "id": 1,
+            "icon": "1.png",
+            "title": "Purpose-Driven Work",
+            "description": "Be part of a company that is transforming Africa's food systems and improving millions of lives."
+        },
+        {
+            "id": 2,
+            "icon": "3.png",
+            "title": "Growth & Development",
+            "description": "We invest in our people — through training, mentorship, and opportunities to take on new challenges."
+        },
+        {
+            "id": 3,
+            "icon": "5.png",
+            "title": "Pan-African Exposure",
+            "description": "Work across multiple markets and gain experience in one of Africa's most dynamic sectors."
+        },
+        {
+            "id": 4,
+            "icon": "7.png",
+            "title": "Innovation Culture",
+            "description": "We encourage new ideas, experimentation, and entrepreneurial thinking at every level of the organisation."
+        }
+    ],
+    "contactEmail": "jobs@pancoreltd.com",
+    "cta": {
+        "title": "Ready to Make an Impact?",
+        "description": "Send your CV and a cover letter to",
+        "buttonText": "Apply Now",
+        "buttonLink": "mailto:jobs@pancoreltd.com"
+    }
+}

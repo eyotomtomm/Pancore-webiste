@@ -1,0 +1,55 @@
+{
+    "badge": "Our Business",
+    "title": "A Fully Integrated Model from Farm to Market",
+    "description": "We combine deep local expertise with global standards, leveraging innovation, sustainability, and scale to unlock Africa's agricultural potential.",
+    "divisions": [
+        {
+            "id": 1,
+            "title": "Sourcing & Origination",
+            "description": "We work directly with smallholder farmers, cooperatives, and large-scale producers across Africa to source quality agricultural commodities. Our sourcing model prioritises fair pricing, traceability, and long-term partnerships that empower farming communities.",
+            "image": "/assets/img/pancore/sourcing.jpg",
+            "highlights": [
+                "Direct farmer engagement across multiple African countries",
+                "Quality assurance at the point of origin",
+                "Fair pricing and transparent trade practices",
+                "Cooperative development and farmer training programs"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Processing & Manufacturing",
+            "description": "Through owned and partnered facilities, we transform raw agricultural products into high-quality, value-added food, feed, and industrial ingredients. Our processing operations meet international quality and safety standards.",
+            "image": "/assets/img/pancore/processing.jpg",
+            "highlights": [
+                "Modern processing facilities across key markets",
+                "International quality and safety certifications",
+                "Value-added products for food, feed, and industry",
+                "Continuous investment in technology and capacity"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Trading & Distribution",
+            "description": "Our trading and logistics platform connects African producers with domestic, regional, and international markets. We manage the full supply chain — from farm-gate collection to last-mile delivery.",
+            "image": "/assets/img/pancore/trading.jpg",
+            "highlights": [
+                "Domestic, regional, and international market access",
+                "Integrated logistics and supply chain management",
+                "Real-time market intelligence and pricing",
+                "Risk management and trade finance solutions"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Branding & Retail",
+            "description": "We develop consumer-facing brands that bring quality, traceability, and trust to the African food market. From cooking oils to flours and ready-to-use ingredients, our products are designed for modern African consumers.",
+            "image": "/assets/img/pancore/branding.jpg",
+            "highlights": [
+                "Consumer brands built on quality and trust",
+                "Product innovation for modern African consumers",
+                "Retail and food service distribution channels",
+                "Brand marketing and consumer engagement"
+            ]
+        }
+    ]
+}

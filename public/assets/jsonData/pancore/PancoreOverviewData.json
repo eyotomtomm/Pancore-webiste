@@ -1,0 +1,31 @@
+{
+    "badge": "Why Pancore",
+    "title": "Building Africa's Agricultural Future",
+    "description": "We combine deep local expertise with global standards to unlock Africa's agricultural potential.",
+    "highlights": [
+        {
+            "id": 1,
+            "icon": "1.png",
+            "title": "Pan-African Focus",
+            "description": "Operating across multiple African markets with deep understanding of local farming communities, supply chains, and consumer needs."
+        },
+        {
+            "id": 2,
+            "icon": "3.png",
+            "title": "Integrated Value Chains",
+            "description": "From sourcing and processing to trading and branding — we control quality and efficiency at every step."
+        },
+        {
+            "id": 3,
+            "icon": "5.png",
+            "title": "Innovation-Driven",
+            "description": "Leveraging digital tools, data analytics, and modern agricultural practices to transform traditional farming systems."
+        },
+        {
+            "id": 4,
+            "icon": "7.png",
+            "title": "Strategic Partnerships",
+            "description": "Collaborating with governments, development banks, farmer unions, and private sector partners to create lasting impact."
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "badge": "Our Commodities",
+    "title": "What We Trade",
+    "description": "We source, process, and trade a diverse portfolio of agricultural commodities across Africa and beyond.",
+    "categories": [
+        {
+            "id": 1,
+            "title": "Grains & Staples",
+            "image": "/assets/img/pancore/maize.jpg",
+            "description": "Essential food commodities that feed millions across Africa.",
+            "items": ["Maize & Maize Flour", "Wheat & Wheat Flour", "Rice", "Sorghum", "Millet"]
+        },
+        {
+            "id": 2,
+            "title": "Edible Oils",
+            "image": "/assets/img/pancore/soybeans.jpg",
+            "description": "High-quality oil seeds and refined cooking oils.",
+            "items": ["Soybeans", "Soybean Oil", "Sunflower Oil", "Palm Oil", "Groundnut Oil"]
+        },
+        {
+            "id": 3,
+            "title": "Feed & Ingredients",
+            "image": "/assets/img/pancore/animal-feed.jpg",
+            "description": "Animal feed ingredients and industrial-grade agricultural products.",
+            "items": ["Soybean Meal", "Maize Bran", "Wheat Bran", "Fish Meal", "Poultry Feed Premixes"]
+        },
+        {
+            "id": 4,
+            "title": "Soft Commodities",
+            "image": "/assets/img/pancore/coffee.jpg",
+            "description": "Specialty crops and high-value agricultural exports.",
+            "items": ["Coffee", "Cocoa", "Sesame", "Cashew Nuts", "Cotton"]
+        }
+    ]
+}

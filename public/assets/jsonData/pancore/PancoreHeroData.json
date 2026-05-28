@@ -1,0 +1,27 @@
+{
+    "subtitle": "Nourishing Possibilities",
+    "title": "Building a stronger food future.",
+    "italic": "For Africa. For the world.",
+    "description": "Pancore is a diversified food and agribusiness group transforming local resources into essential food, ingredients and nutrition.",
+    "buttonText": "Discover Our Business",
+    "buttonLink": "/our-business",
+    "secondButtonText": "Partner With Us",
+    "secondButtonLink": "/partnerships",
+    "image": "/assets/img/banner/7.jpg",
+    "stats": [
+        {
+            "id": 1,
+            "label_top": "Operating In",
+            "end": 20,
+            "operator": "+",
+            "label_bottom": "Countries"
+        },
+        {
+            "id": 2,
+            "label_top": "Serving Over",
+            "end": 30,
+            "operator": "M+",
+            "label_bottom": "People"
+        }
+    ]
+}

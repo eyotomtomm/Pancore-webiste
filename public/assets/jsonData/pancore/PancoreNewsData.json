@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/img/blog/1.jpg",
+        "category": "News",
+        "date": "7 May 2024",
+        "title": "Pancore expands soybean processing capacity to meet growing demand",
+        "link": "/blog-single/1"
+    },
+    {
+        "id": 2,
+        "image": "/assets/img/blog/2.jpg",
+        "category": "Insights",
+        "date": "24 April 2024",
+        "title": "The future of food in Africa: opportunities for sustainable growth",
+        "link": "/blog-single/2"
+    },
+    {
+        "id": 3,
+        "image": "/assets/img/blog/3.jpg",
+        "category": "News",
+        "date": "10 April 2024",
+        "title": "Pancore strengthens regional partnerships across West Africa",
+        "link": "/blog-single/3"
+    }
+]

@@ -1,0 +1,25 @@
+{
+    "badge": "African Arts Initiative",
+    "title": "Celebrating African Creativity",
+    "description": "At Pancore, we believe that agriculture and art share a common root — the land, the people, and the stories of Africa. Through our African Arts Initiative, we support and showcase contemporary African art, connecting creative expression with the communities at the heart of our business.",
+    "featureImage": "/assets/img/pancore/arts-1.jpg",
+    "galleryImage": "/assets/img/pancore/arts-2.jpg",
+    "openCall": {
+        "title": "Open Call for Artists",
+        "description": "We are currently accepting submissions from African artists working across all mediums — painting, sculpture, photography, textile, digital, and mixed media. Selected works will be featured in our annual exhibition and may be commissioned for our corporate spaces."
+    },
+    "ctas": [
+        {
+            "id": 1,
+            "text": "Submit Your Work",
+            "link": "/pancore-contact",
+            "style": "primary"
+        },
+        {
+            "id": 2,
+            "text": "Learn More",
+            "link": "/pancore-about",
+            "style": "secondary"
+        }
+    ]
+}

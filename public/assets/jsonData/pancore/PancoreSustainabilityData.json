@@ -1,0 +1,41 @@
+{
+    "badge": "Sustainability",
+    "title": "Our Commitment to a Better Future",
+    "description": "Sustainability is not a separate initiative — it is embedded in everything we do. From the way we source to the way we process and trade, we are committed to building a food system that is good for people, planet, and profit.",
+    "focusAreas": [
+        {
+            "id": 1,
+            "title": "Empowering Smallholder Farmers",
+            "description": "We invest in training, inputs, and market access for smallholder farmers — helping them improve yields, increase incomes, and build resilient livelihoods.",
+            "image": "/assets/img/pancore/sustainability-1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Sustainable Sourcing & Practices",
+            "description": "We source responsibly, promote regenerative farming practices, and work to reduce waste and emissions across our supply chain.",
+            "image": "/assets/img/pancore/sustainability-2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Rural Development & Livelihoods",
+            "description": "We contribute to rural development by creating jobs, supporting local economies, and investing in community infrastructure.",
+            "image": "/assets/img/pancore/sustainability-3.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Food Security & Nutrition",
+            "description": "We play a direct role in improving food security by ensuring that quality, affordable food reaches those who need it most.",
+            "image": "/assets/img/pancore/sustainability-4.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Environmental Stewardship",
+            "description": "We are committed to reducing our environmental footprint — through water-efficient processing, renewable energy, and conservation-focused land management.",
+            "image": "/assets/img/pancore/sustainability-5.jpg"
+        }
+    ],
+    "impactVision": {
+        "title": "Our Impact Vision",
+        "description": "By 2030, we aim to directly improve the livelihoods of over 1 million smallholder farming families, reduce our carbon footprint by 40%, and contribute meaningfully to food security across every market we operate in."
+    }
+}

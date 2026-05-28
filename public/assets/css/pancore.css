@@ -1,0 +1,2394 @@
+/* =========================================
+   Pancore Corporate Homepage Styles
+   Exact replica of Pancore website
+   ========================================= */
+
+:root {
+    --bg-cream: #f5f0e8;
+    --pancore-dark: #3a4a2a;
+    --pancore-green: #4e6a2f;
+    --pancore-gold: #c4a35a;
+    --pancore-text: #666666;
+    --pancore-heading: #2c3a1e;
+}
+
+/* =========================================
+   Pancore Preloader Override
+   ========================================= */
+.pancore-preloader .animation-preloader::after {
+    background: url(/assets/img/pancore-logo.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.pancore-preloader .animation-preloader .spinner {
+    border-color: rgba(78, 106, 47, 0.3) !important;
+    border-top-color: var(--pancore-green) !important;
+}
+
+/* =========================================
+   Header Pancore
+   ========================================= */
+nav.header-pancore-nav {
+    background: #fff !important;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 !important;
+}
+
+nav.header-pancore-nav .container {
+    height: 72px;
+}
+
+nav.header-pancore-nav .navbar-header {
+    float: none;
+    display: flex;
+    align-items: center;
+}
+
+nav.header-pancore-nav .navbar-brand img {
+    max-width: 145px;
+}
+
+/* Nav link overrides */
+nav.header-pancore-nav ul.nav > li > a {
+    color: var(--pancore-dark) !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    padding: 30px 14px !important;
+}
+
+nav.header-pancore-nav ul.nav > li > a:hover,
+nav.header-pancore-nav ul.nav > li > a.active {
+    color: var(--pancore-green) !important;
+}
+
+/* Right side: search + CTA */
+.pancore-attr-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.pancore-attr-right .pancore-search-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: var(--pancore-dark);
+    cursor: pointer;
+    padding: 5px;
+    transition: color 0.3s;
+}
+
+.pancore-attr-right .pancore-search-btn:hover {
+    color: var(--pancore-green);
+}
+
+.pancore-attr-right .pancore-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 22px;
+    background: transparent;
+    color: var(--pancore-dark);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    border-radius: 0;
+    border: 1.5px solid var(--pancore-dark);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.pancore-attr-right .pancore-cta-btn:hover {
+    background: var(--pancore-dark);
+    color: #fff;
+}
+
+.pancore-attr-right .pancore-cta-btn i {
+    font-size: 11px;
+    transition: transform 0.3s;
+}
+
+.pancore-attr-right .pancore-cta-btn:hover i {
+    transform: translateX(3px);
+}
+
+@media (max-width: 991px) {
+    .pancore-attr-right .pancore-cta-btn {
+        display: none;
+    }
+}
+
+/* =========================================
+   Pancore Hero Section
+   ========================================= */
+.pancore-hero-area {
+    background: var(--bg-cream);
+    padding: 150px 0 80px;
+    position: relative;
+    overflow: hidden;
+    min-height: 620px;
+}
+
+.pancore-hero-content {
+    position: relative;
+    z-index: 2;
+    padding-top: 30px;
+}
+
+.pancore-hero-content .pancore-subtitle {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--pancore-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 24px;
+}
+
+.pancore-hero-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    line-height: 1.15;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+.pancore-hero-content .pancore-hero-italic {
+    font-family: var(--font-secondary);
+    font-size: 26px;
+    color: var(--pancore-dark);
+    margin-bottom: 20px;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.pancore-hero-content .pancore-hero-desc {
+    font-size: 15px;
+    color: var(--pancore-text);
+    line-height: 1.7;
+    margin-bottom: 32px;
+    max-width: 420px;
+}
+
+.pancore-hero-content .pancore-hero-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 30px;
+    background: var(--pancore-dark);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.pancore-hero-content .pancore-hero-btn:hover {
+    background: #2c3a1e;
+    color: #fff;
+}
+
+.pancore-hero-content .pancore-hero-btn i {
+    font-size: 12px;
+    transition: transform 0.3s;
+}
+
+.pancore-hero-content .pancore-hero-btn:hover i {
+    transform: translateX(4px);
+}
+
+/* Hero right side */
+.pancore-hero-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.pancore-hero-circle-image {
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.pancore-hero-circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Stats below circle, right-aligned */
+.pancore-hero-stats {
+    display: flex;
+    gap: 0;
+    margin-top: 30px;
+}
+
+.pancore-hero-stat-item {
+    text-align: left;
+    padding: 0 30px;
+    position: relative;
+}
+
+.pancore-hero-stat-item:first-child {
+    padding-left: 0;
+}
+
+.pancore-hero-stat-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 5px;
+    bottom: 5px;
+    width: 1px;
+    background: #c0b8a8;
+}
+
+.pancore-hero-stat-item .stat-label-top {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--pancore-text);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 4px;
+}
+
+.pancore-hero-stat-item .stat-number {
+    display: flex;
+    align-items: baseline;
+    gap: 0;
+}
+
+.pancore-hero-stat-item .stat-number .timer {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--pancore-dark);
+    line-height: 1;
+}
+
+.pancore-hero-stat-item .stat-number .operator {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--pancore-dark);
+}
+
+.pancore-hero-stat-item .stat-label-bottom {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--pancore-text);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 2px;
+}
+
+/* =========================================
+   Pancore Business Divisions Section
+   ========================================= */
+.pancore-divisions-area {
+    padding: 80px 0;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+.pancore-divisions-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.pancore-divisions-left {
+    flex: 0 0 240px;
+    min-width: 240px;
+    padding-top: 10px;
+}
+
+.pancore-divisions-left h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    line-height: 1.3;
+    margin-bottom: 16px;
+}
+
+.pancore-divisions-left p {
+    font-size: 14px;
+    color: var(--pancore-text);
+    line-height: 1.7;
+    margin-bottom: 24px;
+}
+
+.pancore-divisions-left .pancore-explore-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--pancore-dark);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.pancore-divisions-left .pancore-explore-link:hover {
+    color: var(--pancore-green);
+}
+
+.pancore-divisions-left .pancore-explore-link i {
+    font-size: 12px;
+    transition: transform 0.3s;
+}
+
+.pancore-divisions-left .pancore-explore-link:hover i {
+    transform: translateX(4px);
+}
+
+.pancore-divisions-right {
+    flex: 1;
+    display: flex;
+    gap: 0;
+}
+
+.pancore-division-card {
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+    position: relative;
+}
+
+.pancore-division-card:first-child {
+    padding-left: 0;
+}
+
+.pancore-division-card:last-child {
+    padding-right: 0;
+}
+
+.pancore-division-card:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: #e8e8e8;
+}
+
+.pancore-division-card .division-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pancore-division-card .division-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.pancore-division-card h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    line-height: 1.35;
+    margin-bottom: 10px;
+    min-height: 38px;
+}
+
+.pancore-division-card p {
+    font-size: 12px;
+    color: var(--pancore-text);
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.pancore-division-card .division-arrow {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    color: var(--pancore-dark);
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.pancore-division-card .division-arrow:hover {
+    color: var(--pancore-green);
+    transform: translateX(3px);
+}
+
+/* =========================================
+   Pancore Purpose / Values Section
+   ========================================= */
+.pancore-purpose-area {
+    background: #2c3a1e;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.pancore-purpose-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.pancore-purpose-left {
+    flex: 0 0 380px;
+    min-width: 380px;
+}
+
+.pancore-purpose-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 28px;
+}
+
+.pancore-purpose-badge::after {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.pancore-purpose-left h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.pancore-purpose-left p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.7;
+    margin-bottom: 28px;
+}
+
+.pancore-purpose-left .pancore-purpose-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.pancore-purpose-left .pancore-purpose-link:hover {
+    color: var(--pancore-gold);
+}
+
+.pancore-purpose-left .pancore-purpose-link i {
+    font-size: 12px;
+    transition: transform 0.3s;
+}
+
+.pancore-purpose-left .pancore-purpose-link:hover i {
+    transform: translateX(4px);
+}
+
+.pancore-purpose-right {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+}
+
+.pancore-value-card {
+    padding: 0 20px;
+    position: relative;
+}
+
+.pancore-value-card:first-child {
+    padding-left: 0;
+}
+
+.pancore-value-card:last-child {
+    padding-right: 0;
+}
+
+.pancore-value-card:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.pancore-value-card .value-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pancore-value-card .value-icon img {
+    max-width: 36px;
+    max-height: 36px;
+    filter: brightness(0) invert(1);
+    opacity: 0.7;
+}
+
+.pancore-value-card h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.pancore-value-card p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.55);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* =========================================
+   Pancore News Section
+   ========================================= */
+.pancore-news-area {
+    padding: 80px 0 100px;
+    background: #fff;
+}
+
+.pancore-news-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.pancore-news-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin: 0;
+}
+
+.pancore-news-header .pancore-view-all {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--pancore-dark);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s;
+}
+
+.pancore-news-header .pancore-view-all:hover {
+    color: var(--pancore-green);
+}
+
+.pancore-news-header .pancore-view-all i {
+    font-size: 11px;
+    transition: transform 0.3s;
+}
+
+.pancore-news-header .pancore-view-all:hover i {
+    transform: translateX(4px);
+}
+
+.pancore-news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.pancore-news-card {
+    background: #fff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.pancore-news-card:hover {
+    transform: translateY(-3px);
+}
+
+.pancore-news-card .news-image {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.pancore-news-card .news-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.pancore-news-card:hover .news-image img {
+    transform: scale(1.05);
+}
+
+.pancore-news-card .news-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0 8px;
+}
+
+.pancore-news-card .news-category {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--pancore-dark);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.pancore-news-card .news-date {
+    font-size: 13px;
+    color: var(--pancore-text);
+}
+
+.pancore-news-card .news-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--pancore-heading);
+    line-height: 1.45;
+    margin: 0;
+}
+
+.pancore-news-card .news-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.pancore-news-card .news-title a:hover {
+    color: var(--pancore-green);
+}
+
+/* =========================================
+   Responsive Styles
+   ========================================= */
+
+/* Large Desktop */
+@media (max-width: 1200px) {
+    .pancore-hero-circle-image {
+        width: 370px;
+        height: 370px;
+    }
+
+    .pancore-divisions-left {
+        flex: 0 0 200px;
+        min-width: 200px;
+    }
+
+    .pancore-purpose-left {
+        flex: 0 0 300px;
+        min-width: 300px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .pancore-hero-area {
+        padding: 110px 0 60px;
+    }
+
+    .pancore-hero-content h1 {
+        font-size: 38px;
+    }
+
+    .pancore-hero-circle-image {
+        width: 300px;
+        height: 300px;
+        margin: 40px auto 0;
+    }
+
+    .pancore-hero-right {
+        align-items: center;
+    }
+
+    .pancore-hero-stats {
+        justify-content: center;
+    }
+
+    .pancore-divisions-wrapper {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pancore-divisions-left {
+        flex: none;
+        min-width: auto;
+    }
+
+    .pancore-divisions-right {
+        flex-wrap: wrap;
+    }
+
+    .pancore-division-card {
+        flex: 0 0 calc(33.33% - 14px);
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+
+    .pancore-division-card:nth-child(3)::after {
+        display: none;
+    }
+
+    .pancore-purpose-wrapper {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pancore-purpose-left {
+        flex: none;
+        min-width: auto;
+    }
+
+    .pancore-purpose-right {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .pancore-value-card {
+        padding: 0;
+    }
+
+    .pancore-value-card:not(:last-child)::after {
+        display: none;
+    }
+
+    .pancore-hero-content .pancore-hero-italic {
+        font-size: 22px;
+    }
+
+    .pancore-hero-stat-item .stat-number .timer {
+        font-size: 30px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .pancore-hero-area {
+        padding: 100px 0 50px;
+    }
+
+    .pancore-hero-content h1 {
+        font-size: 32px;
+    }
+
+    .pancore-hero-content .pancore-hero-italic {
+        font-size: 20px;
+    }
+
+    .pancore-hero-circle-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .pancore-hero-stats {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .pancore-hero-stat-item:not(:last-child)::after {
+        display: none;
+    }
+
+    .pancore-divisions-right {
+        flex-direction: column;
+    }
+
+    .pancore-division-card {
+        flex: none;
+        padding: 0;
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .pancore-division-card:not(:last-child)::after {
+        display: none;
+    }
+
+    .pancore-division-card h5 {
+        min-height: auto;
+    }
+
+    .pancore-purpose-right {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .pancore-news-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pancore-news-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .pancore-divisions-area,
+    .pancore-purpose-area,
+    .pancore-news-area {
+        padding: 60px 0;
+    }
+
+    .pancore-divisions-left h2,
+    .pancore-purpose-left h2 {
+        font-size: 26px;
+    }
+
+    .pancore-news-header h2 {
+        font-size: 24px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .pancore-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .pancore-hero-circle-image {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+/* Pancore dropdown overrides */
+nav.header-pancore-nav li.dropdown ul.dropdown-menu > li > a {
+    text-transform: none !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+/* =========================================
+   Hero Second CTA Button
+   ========================================= */
+.pancore-hero-content .pancore-hero-btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 30px;
+    background: transparent;
+    color: var(--pancore-dark);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    border-radius: 0;
+    border: 1.5px solid var(--pancore-dark);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.pancore-hero-content .pancore-hero-btn-secondary:hover {
+    background: var(--pancore-dark);
+    color: #fff;
+}
+
+.pancore-hero-content .pancore-hero-btn-secondary i {
+    font-size: 12px;
+    transition: transform 0.3s;
+}
+
+.pancore-hero-content .pancore-hero-btn-secondary:hover i {
+    transform: translateX(4px);
+}
+
+/* =========================================
+   Pancore Breadcrumb / Page Banner
+   ========================================= */
+.pancore-breadcrumb-area {
+    position: relative;
+    padding: 180px 0 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.pancore-breadcrumb-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(44, 58, 30, 0.3) 0%, rgba(44, 58, 30, 0.85) 100%);
+    z-index: 1;
+}
+
+.pancore-breadcrumb-area .container {
+    position: relative;
+    z-index: 2;
+}
+
+.pancore-breadcrumb-area h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+}
+
+.pancore-breadcrumb-area p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* =========================================
+   Pancore Overview Section (Homepage)
+   ========================================= */
+.pancore-overview-area {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.pancore-overview-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pancore-overview-header .pancore-overview-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--pancore-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+}
+
+.pancore-overview-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 12px;
+}
+
+.pancore-overview-header p {
+    font-size: 15px;
+    color: var(--pancore-text);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.pancore-overview-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.pancore-overview-card {
+    background: var(--bg-cream);
+    padding: 35px 28px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.pancore-overview-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.pancore-overview-card .overview-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.pancore-overview-card .overview-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.pancore-overview-card h4 {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 10px;
+}
+
+.pancore-overview-card p {
+    font-size: 13px;
+    color: var(--pancore-text);
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* =========================================
+   Pancore About Section
+   ========================================= */
+.pancore-about-area {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.pancore-about-content {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.pancore-about-text {
+    flex: 1;
+}
+
+.pancore-about-text .pancore-about-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--pancore-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.pancore-about-text h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 20px;
+    line-height: 1.25;
+}
+
+.pancore-about-text p {
+    font-size: 15px;
+    color: var(--pancore-text);
+    line-height: 1.8;
+    margin-bottom: 24px;
+}
+
+.pancore-about-image {
+    flex: 0 0 420px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.pancore-about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pancore-vision-mission {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.pancore-vision-card,
+.pancore-mission-card {
+    background: var(--bg-cream);
+    padding: 35px;
+    border-radius: 4px;
+    border-left: 4px solid var(--pancore-green);
+}
+
+.pancore-vision-card h3,
+.pancore-mission-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 12px;
+}
+
+.pancore-vision-card p,
+.pancore-mission-card p {
+    font-size: 14px;
+    color: var(--pancore-text);
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* =========================================
+   Pancore Values Section
+   ========================================= */
+.pancore-values-area {
+    padding: 80px 0;
+    background: #2c3a1e;
+}
+
+.pancore-values-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pancore-values-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.pancore-values-header p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.pancore-values-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+}
+
+.pancore-values-card {
+    background: rgba(255, 255, 255, 0.06);
+    padding: 30px 22px;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.pancore-values-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-3px);
+}
+
+.pancore-values-card .values-icon {
+    width: 44px;
+    height: 44px;
+    margin: 0 auto 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pancore-values-card .values-icon img {
+    max-width: 36px;
+    max-height: 36px;
+    filter: brightness(0) invert(1);
+    opacity: 0.8;
+}
+
+.pancore-values-card h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.pancore-values-card p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.55);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* =========================================
+   Pancore Business Full Page Section
+   ========================================= */
+.pancore-business-full-area {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.pancore-business-full-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pancore-business-full-header .pancore-biz-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--pancore-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+}
+
+.pancore-business-full-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 12px;
+}
+
+.pancore-business-full-header p {
+    font-size: 15px;
+    color: var(--pancore-text);
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.pancore-division-row {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #eee;
+}
+
+.pancore-division-row:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.pancore-division-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.pancore-division-row .division-image {
+    flex: 0 0 480px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.pancore-division-row .division-image img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+}
+
+.pancore-division-row .division-content {
+    flex: 1;
+}
+
+.pancore-division-row .division-content h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 16px;
+}
+
+.pancore-division-row .division-content p {
+    font-size: 14px;
+    color: var(--pancore-text);
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.pancore-division-row .division-highlights {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pancore-division-row .division-highlights li {
+    font-size: 14px;
+    color: var(--pancore-text);
+    padding: 6px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.pancore-division-row .division-highlights li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 14px;
+    width: 8px;
+    height: 2px;
+    background: var(--pancore-green);
+}
+
+/* =========================================
+   Pancore Commodities Section
+   ========================================= */
+.pancore-commodities-area {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.pancore-commodities-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pancore-commodities-header .pancore-comm-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--pancore-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+}
+
+.pancore-commodities-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 12px;
+}
+
+.pancore-commodities-header p {
+    font-size: 15px;
+    color: var(--pancore-text);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.pancore-commodities-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.pancore-commodity-card {
+    background: var(--bg-cream);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.pancore-commodity-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.pancore-commodity-card .commodity-image {
+    height: 220px;
+    overflow: hidden;
+}
+
+.pancore-commodity-card .commodity-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.pancore-commodity-card:hover .commodity-image img {
+    transform: scale(1.05);
+}
+
+.pancore-commodity-card .commodity-content {
+    padding: 28px;
+}
+
+.pancore-commodity-card .commodity-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 8px;
+}
+
+.pancore-commodity-card .commodity-content > p {
+    font-size: 13px;
+    color: var(--pancore-text);
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.pancore-commodity-card .commodity-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.pancore-commodity-card .commodity-items li {
+    font-size: 12px;
+    color: var(--pancore-dark);
+    background: rgba(78, 106, 47, 0.08);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* =========================================
+   Pancore Approach Section
+   ========================================= */
+.pancore-approach-area {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.pancore-approach-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pancore-approach-header .pancore-approach-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--pancore-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+}
+
+.pancore-approach-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 12px;
+}
+
+.pancore-approach-header p {
+    font-size: 15px;
+    color: var(--pancore-text);
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.pancore-pillar-block {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.pancore-pillar-block:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.pancore-pillar-block:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.pancore-pillar-block .pillar-image {
+    flex: 0 0 420px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.pancore-pillar-block .pillar-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.pancore-pillar-block .pillar-content {
+    flex: 1;
+}
+
+.pancore-pillar-block .pillar-number {
+    font-size: 48px;
+    font-weight: 800;
+    color: rgba(78, 106, 47, 0.15);
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.pancore-pillar-block .pillar-content h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 16px;
+}
+
+.pancore-pillar-block .pillar-content p {
+    font-size: 14px;
+    color: var(--pancore-text);
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* =========================================
+   Pancore Sustainability Section
+   ========================================= */
+.pancore-sustainability-area {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.pancore-sustainability-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pancore-sustainability-header .pancore-sust-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--pancore-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+}
+
+.pancore-sustainability-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 12px;
+}
+
+.pancore-sustainability-header p {
+    font-size: 15px;
+    color: var(--pancore-text);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.pancore-focus-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.pancore-focus-card {
+    background: var(--bg-cream);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.pancore-focus-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.pancore-focus-card .focus-image {
+    height: 200px;
+    overflow: hidden;
+}
+
+.pancore-focus-card .focus-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.pancore-focus-card:hover .focus-image img {
+    transform: scale(1.05);
+}
+
+.pancore-focus-card .focus-content {
+    padding: 24px;
+}
+
+.pancore-focus-card .focus-content h4 {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 10px;
+}
+
+.pancore-focus-card .focus-content p {
+    font-size: 13px;
+    color: var(--pancore-text);
+    line-height: 1.7;
+    margin: 0;
+}
+
+.pancore-impact-banner {
+    background: #2c3a1e;
+    padding: 50px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.pancore-impact-banner h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.pancore-impact-banner p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* =========================================
+   Pancore Arts Section
+   ========================================= */
+.pancore-arts-area {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.pancore-arts-header {
+    margin-bottom: 50px;
+}
+
+.pancore-arts-header .pancore-arts-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--pancore-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+}
+
+.pancore-arts-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 16px;
+}
+
+.pancore-arts-header p {
+    font-size: 15px;
+    color: var(--pancore-text);
+    max-width: 700px;
+    line-height: 1.8;
+}
+
+.pancore-arts-feature {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.pancore-arts-feature .arts-feature-image {
+    flex: 0 0 55%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.pancore-arts-feature .arts-feature-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.pancore-arts-feature .arts-gallery-image {
+    flex: 1;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.pancore-arts-feature .arts-gallery-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.pancore-arts-opencall {
+    background: var(--bg-cream);
+    padding: 50px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.pancore-arts-opencall h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 16px;
+}
+
+.pancore-arts-opencall p {
+    font-size: 15px;
+    color: var(--pancore-text);
+    max-width: 600px;
+    margin: 0 auto 28px;
+    line-height: 1.7;
+}
+
+.pancore-arts-ctas {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.pancore-arts-ctas .pancore-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 30px;
+    background: var(--pancore-dark);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.pancore-arts-ctas .pancore-btn-primary:hover {
+    background: #2c3a1e;
+}
+
+.pancore-arts-ctas .pancore-btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 30px;
+    background: transparent;
+    color: var(--pancore-dark);
+    font-size: 14px;
+    font-weight: 500;
+    border: 1.5px solid var(--pancore-dark);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.pancore-arts-ctas .pancore-btn-secondary:hover {
+    background: var(--pancore-dark);
+    color: #fff;
+}
+
+/* =========================================
+   Pancore Partnerships Section
+   ========================================= */
+.pancore-partnerships-area {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.pancore-partnerships-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pancore-partnerships-header .pancore-partner-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--pancore-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+}
+
+.pancore-partnerships-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 12px;
+}
+
+.pancore-partnerships-header p {
+    font-size: 15px;
+    color: var(--pancore-text);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.pancore-partner-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.pancore-partner-card {
+    background: var(--bg-cream);
+    padding: 35px 24px;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.pancore-partner-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.pancore-partner-card .partner-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pancore-partner-card .partner-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.pancore-partner-card h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 10px;
+}
+
+.pancore-partner-card p {
+    font-size: 13px;
+    color: var(--pancore-text);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.pancore-partner-cta {
+    background: #2c3a1e;
+    padding: 50px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.pancore-partner-cta h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.pancore-partner-cta p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 550px;
+    margin: 0 auto 28px;
+    line-height: 1.7;
+}
+
+.pancore-partner-cta .pancore-cta-btn-white {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 30px;
+    background: #fff;
+    color: var(--pancore-dark);
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.pancore-partner-cta .pancore-cta-btn-white:hover {
+    background: var(--pancore-gold);
+    color: #fff;
+}
+
+.pancore-partner-cta .pancore-cta-btn-white i {
+    font-size: 12px;
+    transition: transform 0.3s;
+}
+
+.pancore-partner-cta .pancore-cta-btn-white:hover i {
+    transform: translateX(4px);
+}
+
+/* =========================================
+   Pancore Careers Section
+   ========================================= */
+.pancore-careers-area {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.pancore-careers-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pancore-careers-header .pancore-careers-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--pancore-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+}
+
+.pancore-careers-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 16px;
+}
+
+.pancore-careers-header p {
+    font-size: 15px;
+    color: var(--pancore-text);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.pancore-careers-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.pancore-career-card {
+    background: var(--bg-cream);
+    padding: 35px 24px;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.pancore-career-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.pancore-career-card .career-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pancore-career-card .career-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.pancore-career-card h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 10px;
+}
+
+.pancore-career-card p {
+    font-size: 13px;
+    color: var(--pancore-text);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.pancore-careers-cta {
+    background: #2c3a1e;
+    padding: 50px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.pancore-careers-cta h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.pancore-careers-cta p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 8px;
+}
+
+.pancore-careers-cta a.email-link {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--pancore-gold);
+    text-decoration: none;
+    margin-bottom: 24px;
+    transition: color 0.3s;
+}
+
+.pancore-careers-cta a.email-link:hover {
+    color: #fff;
+}
+
+.pancore-careers-cta .pancore-cta-btn-white {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 30px;
+    background: #fff;
+    color: var(--pancore-dark);
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.pancore-careers-cta .pancore-cta-btn-white:hover {
+    background: var(--pancore-gold);
+    color: #fff;
+}
+
+/* =========================================
+   Pancore Contact Section
+   ========================================= */
+.pancore-contact-area {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.pancore-contact-wrapper {
+    display: flex;
+    gap: 60px;
+}
+
+.pancore-contact-form {
+    flex: 1;
+}
+
+.pancore-contact-form h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 12px;
+}
+
+.pancore-contact-form > p {
+    font-size: 15px;
+    color: var(--pancore-text);
+    margin-bottom: 32px;
+    line-height: 1.7;
+}
+
+.pancore-contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.pancore-contact-form .form-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--pancore-heading);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.pancore-contact-form .form-group input,
+.pancore-contact-form .form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--pancore-dark);
+    background: #fafafa;
+    transition: border-color 0.3s;
+}
+
+.pancore-contact-form .form-group input:focus,
+.pancore-contact-form .form-group textarea:focus {
+    outline: none;
+    border-color: var(--pancore-green);
+    background: #fff;
+}
+
+.pancore-contact-form .form-group textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.pancore-contact-form .pancore-submit-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 36px;
+    background: var(--pancore-dark);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pancore-contact-form .pancore-submit-btn:hover {
+    background: #2c3a1e;
+}
+
+.pancore-contact-sidebar {
+    flex: 0 0 340px;
+}
+
+.pancore-contact-sidebar h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--pancore-heading);
+    margin-bottom: 24px;
+}
+
+.pancore-contact-info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #eee;
+}
+
+.pancore-contact-info-item:last-child {
+    border-bottom: none;
+}
+
+.pancore-contact-info-item .contact-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--bg-cream);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--pancore-green);
+    font-size: 16px;
+}
+
+.pancore-contact-info-item .contact-detail strong {
+    display: block;
+    font-size: 13px;
+    color: var(--pancore-heading);
+    margin-bottom: 4px;
+}
+
+.pancore-contact-info-item .contact-detail a {
+    font-size: 14px;
+    color: var(--pancore-green);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.pancore-contact-info-item .contact-detail a:hover {
+    color: var(--pancore-dark);
+}
+
+/* =========================================
+   Inner Page Responsive Styles
+   ========================================= */
+
+/* Large Desktop */
+@media (max-width: 1200px) {
+    .pancore-overview-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pancore-division-row .division-image {
+        flex: 0 0 380px;
+    }
+
+    .pancore-pillar-block .pillar-image {
+        flex: 0 0 340px;
+    }
+
+    .pancore-about-image {
+        flex: 0 0 350px;
+    }
+
+    .pancore-partner-grid,
+    .pancore-careers-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pancore-values-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .pancore-contact-sidebar {
+        flex: 0 0 280px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .pancore-breadcrumb-area {
+        padding: 140px 0 60px;
+        min-height: 320px;
+    }
+
+    .pancore-breadcrumb-area h1 {
+        font-size: 36px;
+    }
+
+    .pancore-about-content {
+        flex-direction: column;
+    }
+
+    .pancore-about-image {
+        flex: none;
+        width: 100%;
+    }
+
+    .pancore-vision-mission {
+        grid-template-columns: 1fr;
+    }
+
+    .pancore-division-row,
+    .pancore-division-row.reverse {
+        flex-direction: column;
+    }
+
+    .pancore-division-row .division-image {
+        flex: none;
+        width: 100%;
+    }
+
+    .pancore-pillar-block,
+    .pancore-pillar-block:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .pancore-pillar-block .pillar-image {
+        flex: none;
+        width: 100%;
+    }
+
+    .pancore-commodities-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pancore-focus-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pancore-arts-feature {
+        flex-direction: column;
+    }
+
+    .pancore-arts-feature .arts-feature-image,
+    .pancore-arts-feature .arts-gallery-image {
+        flex: none;
+    }
+
+    .pancore-contact-wrapper {
+        flex-direction: column;
+    }
+
+    .pancore-contact-sidebar {
+        flex: none;
+    }
+
+    .pancore-values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pancore-hero-content .pancore-hero-btn-secondary {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .pancore-breadcrumb-area {
+        padding: 120px 0 50px;
+        min-height: 280px;
+    }
+
+    .pancore-breadcrumb-area h1 {
+        font-size: 30px;
+    }
+
+    .pancore-overview-grid,
+    .pancore-partner-grid,
+    .pancore-careers-grid,
+    .pancore-values-grid,
+    .pancore-focus-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pancore-about-area,
+    .pancore-business-full-area,
+    .pancore-commodities-area,
+    .pancore-approach-area,
+    .pancore-sustainability-area,
+    .pancore-arts-area,
+    .pancore-partnerships-area,
+    .pancore-careers-area,
+    .pancore-contact-area,
+    .pancore-overview-area,
+    .pancore-values-area {
+        padding: 60px 0;
+    }
+
+    .pancore-business-full-header h2,
+    .pancore-commodities-header h2,
+    .pancore-approach-header h2,
+    .pancore-sustainability-header h2,
+    .pancore-arts-header h2,
+    .pancore-partnerships-header h2,
+    .pancore-careers-header h2,
+    .pancore-about-text h2 {
+        font-size: 28px;
+    }
+
+    .pancore-impact-banner,
+    .pancore-partner-cta,
+    .pancore-careers-cta,
+    .pancore-arts-opencall {
+        padding: 35px 20px;
+    }
+
+    .pancore-arts-ctas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pancore-division-row .division-image img,
+    .pancore-pillar-block .pillar-image img {
+        height: 240px;
+    }
+
+    .pancore-arts-feature .arts-feature-image img,
+    .pancore-arts-feature .arts-gallery-image img {
+        height: 260px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .pancore-breadcrumb-area h1 {
+        font-size: 26px;
+    }
+
+    .pancore-overview-card,
+    .pancore-partner-card,
+    .pancore-career-card,
+    .pancore-values-card {
+        padding: 24px 18px;
+    }
+}

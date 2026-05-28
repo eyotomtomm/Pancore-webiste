@@ -1,0 +1,37 @@
+{
+    "badge": "Partnerships",
+    "title": "Growing Together",
+    "description": "Partnerships are at the heart of our business model. We collaborate with a diverse range of stakeholders to create shared value across the agricultural value chain.",
+    "partnerTypes": [
+        {
+            "id": 1,
+            "icon": "23.png",
+            "title": "Governments & Regulators",
+            "description": "We work with national and regional governments to support agricultural policy, food security initiatives, and trade facilitation across Africa."
+        },
+        {
+            "id": 2,
+            "icon": "25.png",
+            "title": "Farmer Unions & Cooperatives",
+            "description": "We partner with farmer organisations to strengthen their capacity, improve market access, and ensure fair, transparent trade."
+        },
+        {
+            "id": 3,
+            "icon": "27.png",
+            "title": "Development Banks & DFIs",
+            "description": "We collaborate with development finance institutions to fund infrastructure, innovation, and inclusive growth across our value chain."
+        },
+        {
+            "id": 4,
+            "icon": "29.png",
+            "title": "Private Sector & Industry",
+            "description": "We engage with technology providers, logistics companies, food manufacturers, and retail partners to drive efficiency and innovation."
+        }
+    ],
+    "cta": {
+        "title": "Partner With Us",
+        "description": "Interested in exploring a partnership with Pancore? We are always looking for aligned partners to help us build a stronger food future for Africa.",
+        "buttonText": "Get in Touch",
+        "buttonLink": "/pancore-contact"
+    }
+}
